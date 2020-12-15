@@ -1,0 +1,14 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files...\..\main.c.Config.0]
+ExternDep=..\..\main.c 
+
+[Root.Source Files...\..\stm8s_it.c.Config.0]
+ExternDep=..\..\stm8s_it.c 
+
+[Root.StdPeriph_Drivers...\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_adc1.c.Config.0]
+ExternDep=..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_adc1.c 
